@@ -453,7 +453,7 @@ img{
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 360px){
+@media screen and (min-width: 250px){
   .exp__container{
     justify-items: center;
     display: grid;
