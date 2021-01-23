@@ -533,6 +533,16 @@ img{
     grid-template-columns: auto auto;
     margin-left: 20%;
     margin-right: 20%;
+    row-gap: 20px;
+  }
+  .exp__container{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    row-gap: 40px;
+    column-gap: 40px;
   }
 }
 
