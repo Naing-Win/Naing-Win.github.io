@@ -198,7 +198,7 @@ img{
   color: var(--first-color);
 }
 .home__social{
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
 }
 .home__social-icon{
@@ -447,6 +447,11 @@ img{
   margin: 0 var(--mb-2)
 }
 
+.edu_grid_item{
+  text-align: center;
+  font-size: var(--normal-font-size);
+}
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
@@ -524,6 +529,10 @@ img{
   }
   .education__container{
     justify-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
