@@ -4,6 +4,7 @@
 :root{
   --header-height: 3rem;
   --font-semi: 600;
+  --font-edu: 800;
 }
 
 :root{
@@ -253,6 +254,7 @@ img{
 /* ===== EDUCATION =====*/
 .edu__text {
   text-align: center;
+  font-size: var(--font-edu);
 }
 
 /* ===== SKILLS =====*/
@@ -282,6 +284,76 @@ img{
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+.skills__icon_javascript{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: rgb(255, 187, 0);
+}
+.skills__bar_javascript{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(255, 208, 0);
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.skills__icon_bootstrap{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: #563d7c;
+}
+.skills__bar_bootstrap{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #563d7c;
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.skills__icon_angular{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: rgb(221, 27, 22);
+}
+.skills__bar_angular{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(221, 27, 22);
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.skills__icon_html{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: rgb(255, 115, 0);
+}
+.skills__bar_html{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(255, 115, 0);
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
+.skills__icon_spring{
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: green;
+}
+.skills__bar_spring{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: green;
+  height: .25rem;
+  border-radius: .5rem;
+  z-index: var(--z-back);
+}
 .skills__names{
   display: flex;
   align-items: center;
@@ -295,20 +367,23 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__java{
   width: 95%;
 }
 .skills__spring{
-  width: 95%;
+  width: 80%;
+}
+.skills__ang{
+  width: 45%;
+}
+.skills__html{
+  width: 70%;
 }
 .skills__css{
-  width: 85%;
+  width: 60%;
 }
 .skills__js{
-  width: 65%;
-}
-.skills__ux{
-  width: 85%;
+  width: 50%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -430,7 +505,7 @@ img{
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
+   /* align-items: center;*/
     text-align: initial;
   }
   .about__img img{
@@ -445,6 +520,9 @@ img{
     width: 360px;
   }
   .contact__container{
+    justify-items: center;
+  }
+  .education__container{
     justify-items: center;
   }
 }
