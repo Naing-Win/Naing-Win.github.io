@@ -452,16 +452,18 @@ img{
   font-size: var(--normal-font-size);
 }
 
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 250px){
   .exp__container{
     justify-items: center;
     display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 5%;
-    margin-right: 5%;
-    row-gap: 40px;
-    column-gap: 40px;
+    grid-template-columns: 40% auto;
+    margin-left: 0;
+    margin-right: 0;
+    row-gap: 0;
+    column-gap: 0;
   }
 }
 
@@ -557,5 +559,15 @@ img{
   }
   .me__img{
     right: 10%;
+  }
+
+  .exp__container{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    row-gap: 40px;
+    column-gap: 40px;
   }
 }
