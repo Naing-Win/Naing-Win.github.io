@@ -494,10 +494,10 @@ img{
     justify-items: center;
     display: grid;
     grid-template-columns: 40% auto;
-    margin-left: 10px;
+    margin-left: 10%;
     margin-right: 10%;
-    row-gap: 30px;
-    column-gap: 30px;
+    row-gap: 50px;
+    column-gap: 50px;
   }
 }
 
