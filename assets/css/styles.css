@@ -494,8 +494,8 @@ img{
     justify-items: center;
     display: grid;
     grid-template-columns: 40% auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 5px;
+    margin-right: 5px;
     row-gap: 5px;
     column-gap: 5px;
   }
