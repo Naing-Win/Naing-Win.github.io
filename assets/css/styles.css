@@ -494,8 +494,8 @@ img{
     justify-items: center;
     display: grid;
     grid-template-columns: 40% auto;
-    margin-left: 15%;
-    margin-right: 10%;
+    margin-left: 7%;
+    margin-right: 5%;
     row-gap: 50px;
     column-gap: 50px;
   }
@@ -599,8 +599,8 @@ img{
     justify-items: center;
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     row-gap: 40px;
     column-gap: 40px;
   }
