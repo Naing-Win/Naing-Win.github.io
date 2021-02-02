@@ -599,8 +599,8 @@ img{
     justify-items: center;
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     row-gap: 40px;
     column-gap: 40px;
   }
